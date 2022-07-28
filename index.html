@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/caa166e20c.js" crossorigin="anonymous"></script>
   </head>
   <body>
     
@@ -109,11 +111,183 @@
                 <h1 class="fw-bold">Discover Our Popular Courses</h1>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
             </div>
-            <div >
-                
-            </div>
+            <!-- Card starts  -->            
+            <div class="row row-cols-2 justify-content-center gap-4">
+              <div class="card p-0" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body pb-0">
+                      <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                      <p class="card-price-color">Price : 20$</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card p-0" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/course/course-2.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body pb-0">
+                      <h5 class="card-title">Javascript Basic to advanced</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                      <p class="card-price-color">Price : 20$</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card p-0" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/course/course-3.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body pb-0">
+                      <h5 class="card-title">Fullstack Web Development</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                      <p class="card-price-color">Price : 20$</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card p-0" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/course/course-4.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body pb-0">
+                      <h5 class="card-title">Digital Marketing</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                      <p class="card-price-color">Price : 20$</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card p-0" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/course/course-5.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body pb-0">
+                      <h5 class="card-title">Photography Basic Rules</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                      <p class="card-price-color">Price : 20$</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card p-0" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/course/course-6.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body pb-0">
+                      <h5 class="card-title">Motion Graphics</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                      <p class="card-price-color">Price : 20$</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>            
+            <!-- Card ends  -->
         </section>
         <!-- Popular Courses section ends  -->
+
+        <!-- Register Modal Starts  -->
+        <section class="container mt-5">
+          <div class="bg-info d-flex justify-content-between align-items-center rounded">
+            <div class="w-50 p-5 text-white mt-3">
+              <h1>Ready to join?</h1>
+              <p class="small">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <!-- Button trigger modal -->
+            <div class="btn bg-white text-info me-5 fw-bold px-4"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Register Now
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Your Information Please!</h4>                    
+                  </div>
+                  <div class="modal-body mx-3 text-secondary">
+                    <div class="md-form mb-5 ">
+                      <i class="fas fa-user prefix"></i>
+                      <label data-error="wrong" data-success="right" for="form3">Your name</label>
+                      <input type="text" id="form3" class="form-control validate">
+                    </div>            
+                    <div class="md-form mb-4">
+                      <i class="fas fa-envelope prefix"></i>
+                      <label data-error="wrong" data-success="right" for="form2">Your email</label>
+                      <input type="email" id="form2" class="form-control validate">
+                    </div>
+            
+                  </div>
+                  <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+                    <button class="btn btn-info">Register</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Register Modal Ends  -->
+
+        <!-- Accordion section starts  -->
+        <section>
+          <div class="text-center p-5 m-auto w-75">
+            <h1 class="fw-bold">Frequently Asked Questions</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          </div>
+          <!-- Accordion starts  -->
+          <div class=" accordion accordion-flush" id="accordionFlushExample">
+            <div class="border rounded accordion-item mb-3">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Why do we need Bootstrap?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Bootstrap is a free front-end framework, with the purpose to make web development faster and easier. It also includes HTML and CSS-based design templates for forms, typography, buttons, navigation, tables, modals, image carousels, and many other components along with other optional JavaScript plugins.</div>
+              </div>
+            </div>
+            <div class="border rounded accordion-item mb-3">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Do I need CSS if I use Bootstrap?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Bootstrap is removing a lot of tricky CSS parts from developers shoulders (like vendor specific prefixes) and it is offering basic default styling, but you still need to understand CSS. You don't need to know how media queries work, but you need to understand how responsive design works.</div>
+              </div>
+            </div>
+            <div class="border rounded accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Is Bootstrap enough for frontend?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">No. For being a professional in frontend one must have a knowledge of JavaScript and it's libraries like angular.</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Accordion section ends  -->
+
+        <!-- Name of trusted companies starts -->
+
     </main>
     <!-- Main section ends  -->
 
