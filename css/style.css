@@ -15,4 +15,7 @@
 .card-price-color{
     color: #289BDE;
 }
+.carousel-image > img {
+    height: 500px;
+}
 
