@@ -1,7 +1,6 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
-
 .carousel-item::before{
     content: "";
     display: block;
@@ -11,7 +10,7 @@
     bottom: 0;
     left: 0;
     background: #000;
-    opacity: 0.6;
+    opacity: 0.7;   
 }
 .card-price-color{
     color: #289BDE;
